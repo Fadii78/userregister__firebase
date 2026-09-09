@@ -15,3 +15,8 @@ const firebaseConfig = {
 
 
   firebase.firestore()
+
+
+
+  let db = firebase.firestore()
+

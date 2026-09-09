@@ -4,14 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+        <!-- FIREBASE -->
+<script src="https://www.gstatic.com/firebasejs/12.1.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/12.1.0/firebase-analytics-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/12.1.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/12.1.0/firebase-storage-compat.js"></script>
+
+
+
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
 
-    <h1>Welcome....</h1>
+
+    <div class="con">
+
+        <input id="name" type="text" placeholder="Enter the Name">
+        <input id="email" type="text" placeholder="Enter the email">
+        <input id="age" type="number" placeholder="Enter the age">
+        <input id="address" type="text" placeholder="Enter the address">
+        <input id="cnic" type="text" placeholder="Enter the Cnic">
+        <input id="phoneno" type="number" placeholder="Enter the phoneNo">
+        <button onclick="getfulldata()"  >Submit</button>
+
+    </div>
 
 
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed commodi debitis rerum hic. Adipisci officiis at recusandae doloribus. Facilis in optio impedit obcaecati vel minus vitae quo consequuntur sit nobis!</p>
-    
+
+    <script src="./api.js"></script>
+    <script src="./landingpage.js"></script>
+
+
 </body>
 </html>
